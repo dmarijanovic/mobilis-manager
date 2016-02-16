@@ -1,0 +1,229 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC26565A-A9BB-43B1-92E6-7F89064EC9F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mobilis</RootNamespace>
+    <AssemblyName>Mobilis</AssemblyName>
+    <ManifestCertificateThumbprint>BC209ADBEE72E24A762893142407592FC1BBFB80</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Mobilis_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ApplicationIcon>ico1.ico</ApplicationIcon>
+    <PublishUrl>D:\Mapa\Projects\Mobilis\publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://www.mobilis.hr/mobilisprogram/</InstallUrl>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aktivacija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aktivacija.Designer.cs">
+      <DependentUpon>Aktivacija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informacije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informacije.Designer.cs">
+      <DependentUpon>Informacije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputBox.Designer.cs">
+      <DependentUpon>InputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Meduspremnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meduspremnik.Designer.cs">
+      <DependentUpon>Meduspremnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenici.Designer.cs">
+      <DependentUpon>Zaposlenici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mobiteli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mobiteli.Designer.cs">
+      <DependentUpon>Mobiteli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oprogramu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oprogramu.Designer.cs">
+      <DependentUpon>Oprogramu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Poslovnice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Poslovnice.Designer.cs">
+      <DependentUpon>Poslovnice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pretplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pretplate.Designer.cs">
+      <DependentUpon>Pretplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pretplatink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pretplatink.Designer.cs">
+      <DependentUpon>Pretplatink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prijava.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prijava.Designer.cs">
+      <DependentUpon>Prijava.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Aktivacija.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Aktivacija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informacije.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Informacije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InputBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meduspremnik.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Meduspremnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenici.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Zaposlenici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mobiteli.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Mobiteli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oprogramu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Oprogramu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Poslovnice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Poslovnice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pretplate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Pretplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pretplatink.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Pretplatink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prijava.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Prijava.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gradovi.xml" />
+    <Content Include="ico1.ico" />
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="Resources\icoEasyLogin.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

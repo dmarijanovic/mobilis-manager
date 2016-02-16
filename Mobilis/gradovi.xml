@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Zupanije>
+  <Vukovarsko-srijemska>
+    <grad ime="Županja" pb="32270" />
+    <grad ime="Štitar" pb="32274" />    
+    <grad ime="Rokovci" pb="32271" />
+    <grad ime="Andrijaševci" pb="32271" />
+    <grad ime="Babina Greda" pb="32276" />
+    <grad ime="Bogdanovci" pb="32000" />
+    <grad ime="Petrovci" pb="32229" />
+    <grad ime="Svinjarevci" pb="32242" />
+    <grad ime="Borovo" pb="32227" /> 
+    <grad ime="Bošnjaci" pb="32275" />
+    <grad ime="Cerna" pb="32272" />
+    <grad ime="Šiškovci" pb="32272" />
+    <grad ime="Drenovci" pb="32257" />
+    <grad ime="Rajevo Selo" pb="32261" />
+    <grad ime="Račinovci" pb="32262" />
+    <grad ime="Đurići" pb="32263" />
+    <grad ime="Posavski Podgajci" pb="32258" />
+    <grad ime="Gradište" pb="32273" />
+    <grad ime="Gunja" pb="32260" />
+    <grad ime="Šarengrad" pb="32234" />
+    <grad ime="Bapska" pb="32235" />
+    <grad ime="Ilok" pb="32236" />
+    <grad ime="Mohovo" pb="32234" />
+    <grad ime="Retkovci" pb="32282" />
+    <grad ime="Prkovci" pb="32282" />
+    <grad ime="Ivankovo" pb="32281" />
+    <grad ime="Jarmina" pb="32280" />
+    <grad ime="Lovas" pb="32237" />
+    <grad ime="Opatovac" pb="32233" />
+    <grad ime="Podrinje" pb="32213" />
+    <grad ime="Gaboš" pb="32212" />
+    <grad ime="Karadžićevo" pb="32280" />
+    <grad ime="Markušica" pb="32213" />
+    <grad ime="Ostrovo" pb="32211" />
+    <grad ime="Negoslavci" pb="32239" />
+    <grad ime="Banovci" pb="32247" />
+    <grad ime="Donje Novo Selo" pb="32245" />
+    <grad ime="Đeletovci" pb="32244" />
+    <grad ime="Lipovac" pb="32246" />
+    <grad ime="Nijemci" pb="32245" />
+    <grad ime="Podgrađe" pb="32245" />
+    <grad ime="Vinkovački Banovci" pb="32247" />
+    <grad ime="Apševci" pb="32246" />
+    <grad ime="Nuštar" pb="32221" />
+    <grad ime="Cerić" pb="32221" />
+    <grad ime="Marinci" pb="32221" />
+    <grad ime="Komletinci" pb="32253" />
+    <grad ime="Otok" pb="32252" />
+    <grad ime="Privlaka" pb="32251" />
+    <grad ime="Stari Jankovci" pb="32241" />
+    <grad ime="Novi Jankovci" pb="32241" />
+    <grad ime="Orolik" pb="32243" />
+    <grad ime="Slakovci" pb="32242" />
+    <grad ime="Srijemske Laze" pb="32242" />
+    <grad ime="Novi Mikanovci" pb="32283" />
+    <grad ime="Stari Mikanovci" pb="32284" />
+    <grad ime="Berak" pb="32243" />
+    <grad ime="Bokšić" pb="32238" />
+    <grad ime="Čakovci" pb="32238" />
+    <grad ime="Grabovo" pb="32232" />
+    <grad ime="Mikluševci" pb="32238" />
+    <grad ime="Tompojevci" pb="32238" />
+    <grad ime="Mlaka Antinska" pb="32214" />
+    <grad ime="Tordinci" pb="32214" />
+    <grad ime="Antin" pb="32214" />
+    <grad ime="Korog" pb="31214" />
+    <grad ime="Ilača" pb="32248" />
+    <grad ime="Tovarnik" pb="32249" />
+    <grad ime="Vera" pb="32225" />
+    <grad ime="Bobota" pb="32225" />
+    <grad ime="Bršadin" pb="32222" />
+    <grad ime="Ćelije" pb="32225" />
+    <grad ime="Ludvinci" pb="32225" />
+    <grad ime="Pačetin" pb="32222" />
+    <grad ime="Trpinja" pb="32224" />
+    <grad ime="Mirkovci" pb="32240" />
+    <grad ime="Vinkovci" pb="32100" />
+    <grad ime="Vođinci" pb="32283" />
+    <grad ime="Soljani" pb="32255" />
+    <grad ime="Strošinci" pb="32256" />
+    <grad ime="Vrbanja" pb="32254" />
+    <grad ime="Grabovo dio" pb="32232" />
+    <grad ime="Lipovača" pb="32010" />
+    <grad ime="Sotin" pb="32232" />
+    <grad ime="Vukovar" pb="32000" />
+  </Vukovarsko-srijemska>
+  
+  <Dodatak>
+    <grad ime="Osijek" pb="31000" />
+    <grad ime="Beli Manastir" pb="31300" />
+    <grad ime="Slavonski Brod" pb="35000" />
+    <grad ime="Virovitica" pb="33000" />    
+  </Dodatak>
+</Zupanije>

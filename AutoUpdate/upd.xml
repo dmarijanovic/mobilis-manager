@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Update verzija="5">
+  <Datoteka ime="AutoUpdate.exe" local="" url="AutoUpdate.exe" ver="1.0.1.0" md5="" />
+  <Datoteka ime="gradovi.xml" local="" url="gradovi.xml" ver="1.0.0.0" md5="" />
+  <Datoteka ime="Mobilis.exe" local="" url="Mobilis.exe" ver="1.0.4.0" md5="" />
+  
+</Update>
